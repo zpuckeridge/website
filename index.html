@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta content="text/html" http-equiv="Content-Type"/>
     <meta charset="UTF-8">
@@ -8,23 +9,43 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="Christian Web Developer with a passion for technology, motorcycles, photography and music." name="description">
     <meta content="Zacchary Puckeridge" name="author">
-
+    
     <title>Zacchary Puckeridge | Christian Web Developer with a passion for technology, motorcycles, photography and music.</title>
 
     <!-- Stylesheets -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
     <link href="css/fontawesome/css/all.css" rel="stylesheet">
     <!-- Stylesheets -->
-
+    
 </head>
+
+
+
 <body>
+
+<div id="vanta">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
+    <script>
+        VANTA.CLOUDS({
+        el: "#vanta",
+        mouseControls: false,
+        touchControls: true,
+        gyroControls: false,
+        sunColor: 0xfa6440,
+        sunGlareColor: 0x222222,
+        sunlightColor: 0xffffff,
+        speed: 0.40
+
+        })
+    </script>
 
     <section class="hero is-fullheight is-primary is-bold">
 
     <div>
-        <div class="has-text-right">
-            <a class="button is-ghost btn-min-width" href="https://portfolio.zacchary.me" target="_self">Portfolio</a>
+        <div class="has-text-centered">
+            <a class="button is-ghost btn-min-width" href="https://gallery.zacchary.me" target="_self">Gallery</a>
             <a class="button is-ghost btn-min-width" href="https://blog.zacchary.me" target="_self">Blog</a>
             <a class="button is-ghost btn-min-width" href="https://cv.zacchary.me" target="_self">CV</a>
         </div>
@@ -32,10 +53,10 @@
     
     <div class="hero-body">
         <div class="container has-text-centered">
-            <h1 style="font-size:8vw; margin-left:2.5%" class="title is-size-1-desktop is-uppercase is-family-code glitch is-inline-flex" data-text="ZACCHARY">
+            <h1 style="font-size:8vw; margin-left:2.5%" class="title is-size-1-desktop is-uppercase is-family-code glitch is-inline-flex disable-select" data-text="ZACCHARY">
                 Zacchary
             </h1>
-            <h2 style="color:white;" class=" title is-size-6 has-text-centered is-inline-flex">
+            <h2 style="color:white;" class="text has-text-centered is-inline-flex disable-select">
                 Christian Web Developer with a passion for technology, motorcycles, photography and music.
             </h2>
         </div>
@@ -51,10 +72,11 @@
                 <li><a href="mailto:zacchary@puckeridge.me" target="_self"><span class="icon is-large"><i
                         class="fas fa-envelope"></i></span></a></li>
                 <li><a href="https://blog.zacchary.me" target="_self"><span class="icon is-large"><i
-                        class="fas fa-pen"></i></span></a></li>                        
-            
+                        class="fas fa-pen"></i></span></a></li>
         </div>
     </div>
+</div>
+
 </section>
 </body>
 </html>
