@@ -9570,8 +9570,8 @@ label.panel-block:hover {
     min-width: 100px;
     margin-top:1.5%; 
     margin-right:1.5%;
-    background-color: rgba(0, 0, 0, 0.025);
-    border-color: #eee;
+    border: none;
+    background: none;
     line-height: 1.2em;
     color: white;
     font-family: 'Kanit', sans-serif;
