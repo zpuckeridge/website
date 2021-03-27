@@ -9566,13 +9566,22 @@ label.panel-block:hover {
     }
 }
 
-.btn-min-width{
+.hero-nav-btn {
     min-width: 100px;
     margin-top:1.5%; 
     margin-right:1.5%;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0, 0, 0, 0.025);
     border-color: #eee;
     line-height: 1.2em;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer-nav-btn {
+    margin-bottom:1.5%; 
+    margin-right:1.5%;
+    border: none;
+    background: none;
     color: white;
     font-family: 'Kanit', sans-serif;
 }
@@ -9599,4 +9608,8 @@ label.panel-block:hover {
    -khtml-user-select: none; /* Konqueror HTML */
    -moz-user-select: none; /* Firefox */
    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.shadow {
+    text-shadow: 1px 1px 3px black;
 }
