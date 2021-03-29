@@ -9567,14 +9567,17 @@ label.panel-block:hover {
 }
 
 .hero-nav-btn {
-    min-width: 100px;
     margin-top:1.5%; 
     margin-right:1.5%;
+    border-radius: 5px;
     border: none;
     background: none;
-    line-height: 1.2em;
     color: white;
     font-family: 'Kanit', sans-serif;
+}
+
+.hero-nav-btn:hover {
+    color: lightgray;
 }
 
 .footer-nav-btn {
@@ -9584,6 +9587,10 @@ label.panel-block:hover {
     background: none;
     color: white;
     font-family: 'Kanit', sans-serif;
+}
+
+.footer-nav-btn:hover {
+    color: lightgray;
 }
 
 .text{
