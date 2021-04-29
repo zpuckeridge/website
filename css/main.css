@@ -367,7 +367,7 @@ th {
     text-align: left;
 }
 html {
-    background-color: #fff;
+    background-color: #0D1117;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -9577,7 +9577,7 @@ label.panel-block:hover {
 }
 
 .hero-nav-btn:hover {
-    color: lightgray;
+    color: #3BCE56;
 }
 
 .footer-nav-btn {
@@ -9585,13 +9585,13 @@ label.panel-block:hover {
     margin-right:1.5%;
     border-radius: 5px;
     border: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: #161B22;
     color: white;
     font-family: 'Kanit', sans-serif;
 }
 
 .footer-nav-btn:hover {
-    color: lightgray;
+    color: #3BCE56;
 }
 
 .text{
