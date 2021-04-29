@@ -9567,10 +9567,10 @@ label.panel-block:hover {
 }
 
 .hero-nav-btn {
+    border: none;
     margin-top:1.5%; 
     margin-right:1.5%;
     border-radius: 5px;
-    border: none;
     background: none;
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -9583,8 +9583,9 @@ label.panel-block:hover {
 .footer-nav-btn {
     margin-bottom:1.5%; 
     margin-right:1.5%;
+    border-radius: 5px;
     border: none;
-    background: none;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     font-family: 'Kanit', sans-serif;
 }
@@ -9619,4 +9620,27 @@ label.panel-block:hover {
 
 .shadow {
     text-shadow: 1px 1px 3px black;
+}
+
+.verticaltext {
+    transform: rotate(90deg);
+    transform-origin: top left;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+.globalbordervertical {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.darkmode {
+    position: right;
+    text-align: right;
+}
+
+.notice {
+    width: 100%;
+    padding: 15px 15px;
+    background: #00a95d;
 }
