@@ -10173,18 +10173,6 @@ a.panel-block:hover, label.panel-block:hover {
     font-family: 'Kanit', sans-serif;
 }
 
-#vantaHalo {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
-
 .disable-select {
     user-select: none;
     /* supported by Chrome and Opera */
@@ -10224,3 +10212,37 @@ a.panel-block:hover, label.panel-block:hover {
     padding: 15px 15px;
     background: #00a95d;
 }
+
+.updated {
+    position: relative;
+    top: 6px;
+    font-size: x-small;
+}
+
+html.light {
+    background-color: #DEE4E7;
+}
+
+.underline{
+    position: relative;
+  }
+  
+  .underline::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+  

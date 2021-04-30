@@ -22,15 +22,15 @@
 
     <!-- MENU -->
     <div class="has-text-centered">
-        <a class="button hero-nav-btn disable-select shadow" href="https://blog.zacchary.me" target="_self">Blog</a>
-        <a class="button hero-nav-btn disable-select shadow" href="/cv.html" target="_self">CV (NEW)</a>
-        <a class="button hero-nav-btn disable-select shadow" href="https://blog.zacchary.me/gallery/" target="_self">Gallery</a>
+        <a class="button hero-nav-btn disable-select shadow underline" href="https://blog.zacchary.me" target="_self">Blog</a>
+        <a class="button hero-nav-btn disable-select shadow underline" href="/cv.html" target="_self">CV<span class="updated disable-select shadow">Updated!</span></a>
+        <a class="button hero-nav-btn disable-select shadow underline" href="https://blog.zacchary.me/gallery/" target="_self">Gallery</a>
     </div>
 
     <!-- CONTENT -->
     <div>
         <div class="container has-text-centered">
-            <h1 style="font-size:8vw; margin-left:2.5%" class="title is-size-1-desktop is-uppercase is-family-code glitch is-inline-flex disable-select shadow" data-text="ZACCHARY">
+            <h1 style="font-size:8vw; margin-left:2.5%;" class="title is-size-1-desktop is-uppercase is-family-code glitch is-inline-flex disable-select shadow" data-text="ZACCHARY">
                 Zacchary
             </h1>
 
@@ -72,10 +72,28 @@
                             <i class="fas fa-server"></i>
                         </span> 
                     </a>
+
+
         </div>
     </div>
 </div>
 
+<a class="button footer-nav-btn disable-select" title="Personal Dashboard" href="#" target="_self" id="toggle-theme" style="position: absolute; bottom: 0%; right: 0%;">
+    <span class="icon is-large">
+        <i class="fas fa-sun"></i>
+    </span> 
+</a>
+
 </section>
+
+<script type="text/javascript">
+        var button=document.getElementById("toggle-theme")
+        button.onclick=function(e){
+            e.preventDefault()
+            var me=document.querySelector("html")
+            me.classList.contains("light")?me.classList.remove("light"):me.classList.add("light")
+        }
+</script>
+
 </body>
 </html>
