@@ -1,0 +1,225 @@
+body {
+    background: #0D1117;
+    font-family: Lato, sans-serif;
+    margin: 0 0 80px;
+}
+
+a {
+    color: #47A6FF;
+}
+
+a:focus,
+a:hover {
+    color: #3BCE56;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+    color: #C3C8D3;
+}
+
+p+p {
+    margin-top: 10px;
+    color: #C3C8D3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+    color: #fff;
+}
+
+
+
+section {
+    margin-top: 30px;
+}
+
+li {
+    line-height: 1.8;
+    list-style: none;
+}
+
+li:before {
+    content: "\f111";
+    float: left;
+    font-family: "Font Awesome 5 Free";
+    font-size: xx-small;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-left: -20px;
+    opacity: .1;
+    position: absolute;
+}
+
+blockquote {
+    border-left: 5px solid #C3C8D3;
+    font-size: 14px;
+}
+
+em {
+    color: #C3C8D3;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 span:first-child {
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 750px;
+    padding: 0 30px;
+}
+
+.col-sm-6 {
+    margin-bottom: 10px;
+    color: #C3C8D3;
+}
+
+.col-sm-12 h4 {
+    margin-top: 12px;
+}
+
+.col-sm-12+.col-sm-12 {
+    margin-top: 30px;
+}
+
+#header {
+    background: #fff;
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+#header h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+#content h3 {
+    color: #fff;
+    font-size: 26px;
+    margin-top: -4px;
+}
+
+#content aside {
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+}
+
+#profiles .network {
+    text-transform: capitalize;
+}
+
+#work .position,
+#volunteer .position {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #C3C8D3;
+}
+
+#education .area {
+    font-weight: bold;
+}
+
+#education .area:before {
+    content: "\f19d";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 6px;
+}
+
+#education .studyType {
+    margin-left: 25px;
+}
+
+#awards .summary,
+#publications .summary {
+    margin-top: 8px;
+}
+
+#publications .website a:before {
+    content: attr(href);
+}
+
+@media (min-width: 480px) {
+    .strike-through {
+        border-top: 1px solid #C3C8D3;
+        height: 20px;
+        margin-top: 12px;
+        margin-bottom: -2px;
+        position: relative;
+        color: white;
+    }
+
+    .strike-through span,
+    .strike-through a {
+        background: #0D1117;
+        position: absolute;
+    }
+
+    .strike-through span:first-child {
+        padding-right: 20px;
+        margin-top: -12px;
+    }
+
+    .strike-through span+span {
+        font-size: 14px;
+        margin-top: -10px;
+        padding-left: 20px;
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-6:last-child {
+        margin-bottom: 0px;
+    }
+
+    #content aside {
+        margin-bottom: 20px;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    #publications .website a:before {
+        content: "View publication";
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .date {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .strike-through span:first-child {
+        margin-bottom: 7px;
+    }
+
+    .strike-through span {
+        display: block;
+    }
+
+    #header {
+        margin-bottom: 10px;
+        padding: 40px 0;
+    }
+
+    #actions {
+        display: none;
+    }
+}
+
+.button {
+    margin-right: 5px;
+}
