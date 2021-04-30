@@ -36,7 +36,8 @@
                         Christian Web Developer with a passion for technology, motorcycles, photography and music.
                     </h2>
 
-                    <a href='Resume.pdf' target="_blank" class="pull-right underline" style="margin-right: 60px;">Download my
+                    <a href='Resume.pdf' target="_blank" class="pull-right underline"
+                        style="margin-right: 60px;">Download my
                         résumé</a>
 
                     <div style="margin-top: 10px;">
@@ -151,7 +152,8 @@
                         </strong>
                         <div class=username>
                             <div class=url>
-                                <a class="underline" href="https://blog.zacchary.me/gallery/">https://blog.zacchary.me/gallery</a>
+                                <a class="underline"
+                                    href="https://blog.zacchary.me/gallery/">https://blog.zacchary.me/gallery</a>
                             </div>
                         </div>
                     </div>
@@ -252,10 +254,10 @@
             </div>
         </section>
 
-    <!-- Back to Top -->
-    <button type="button" class="btn btn-floating btn-lg back-to-top" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <!-- Back to Top -->
+        <button type="button" class="btn btn-floating btn-lg back-to-top" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
         <section id=volunteer class=row>
             <aside class=col-sm-3>
@@ -271,7 +273,8 @@
                             </span>
                         </h4>
                         <div class="website pull-right">
-                            <a class="underline" href="https://www.chaplainwatch.org.au/">https://chaplainwatch.org.au</a>
+                            <a class="underline"
+                                href="https://www.chaplainwatch.org.au/">https://chaplainwatch.org.au</a>
                         </div>
                         <div class=position>
                             Night Watch Staff
@@ -340,7 +343,8 @@
                             </span>
                         </h4>
                         <div class="website pull-right">
-                            <a class="underline" href="https://www.kingsridgebaptist.org/">https://kingsridgebaptist.org</a>
+                            <a class="underline"
+                                href="https://www.kingsridgebaptist.org/">https://kingsridgebaptist.org</a>
                         </div>
                         <div class=position>
                             Sound Technician / Youth Leader
@@ -544,31 +548,33 @@
             </div>
         </section>
     </div>
+
+    <!-- Back to Top -->
     <script>
         //Get the button
         let mybutton = document.getElementById("btn-back-to-top");
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
-        scrollFunction();
+            scrollFunction();
         };
 
         function scrollFunction() {
-        if (
-            document.body.scrollTop > 250 ||
-            document.documentElement.scrollTop > 250
-        ) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
+            if (
+                document.body.scrollTop > 250 ||
+                document.documentElement.scrollTop > 250
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
         // When the user clicks on the button, scroll to the top of the document
         mybutton.addEventListener("click", backToTop);
 
         function backToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 </body>
